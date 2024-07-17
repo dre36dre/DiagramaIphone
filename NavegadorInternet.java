@@ -2,7 +2,7 @@ public class NavegadorInternet{
 Scanner entrada= new Scanner(System.in);
 private String url;
 private String abaNova;
-private boolean=true;
+private String atualizar;
 
 public void setUrl(String url){
 this.url=url;
@@ -32,14 +32,10 @@ System.out.println("Aba nova aberta");
 }
 
 //Método atualizar página
-public void atualizarPagina(boolean atualizar){
-atualizar= entrada.next
-do{
-System.out.println("Atualizar página?");
-
-}while()
-if(botaAtualizar==true){
-System.out.println("Página atualizada");
+public boolean atualizarPagina(boolean atualizar){
+System.out.println("Clique em F5 ou no botão atualizar");
+ if(atualizar== F5 || atualizar== botaAtualizar)
+    System.out.println("Página atualizada!");
 }
 
 
