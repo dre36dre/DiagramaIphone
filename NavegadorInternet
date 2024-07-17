@@ -1,9 +1,11 @@
 public class NavegadorInternet{
 Scanner entrada= new Scanner(System.in);
 private String url;
+private String abaNova;
 
 public void setUrl(String url){
 this.url=url;
+
 }
 public String getUrl(){
 return this.url;
@@ -16,14 +18,22 @@ String url= entrada.next();
 return exibirPagina();
 
 }catch(Exception e){
-System.out.println("Pagina não existe");
+System.out.println("Pagina não encontrada");
  }
 }
 
+//Método nova Aba
+public String abrirAba(String novaAba){
+this.novaAba=novaAba;
 }
 
-//Método adionar aba
+
+do{
+
+
+}while();
 
 
 
+}
 }
