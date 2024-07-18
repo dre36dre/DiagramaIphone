@@ -1,6 +1,5 @@
 public class ReprodutorMusical{
-    public static void main(String[] args){
-        private String musica;
+            private String musica;
         private boolean tocando=false;
         
         public  tocar(){
@@ -28,4 +27,4 @@ public class ReprodutorMusical{
             public String getMusica(){
                 return this.musica;
             }
-}
+
